@@ -10,3 +10,9 @@ with open("testdata.csv", "r") as my_file:
     for row in file_reader:
         # print the row
         print(row)
+
+        if len(row) > 0:
+            prospective_file_name = row[0]
+            new_file = open(f'./{prospective_file_name}.csv', 'w')
+            new_file.close()
+
