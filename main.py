@@ -15,7 +15,7 @@ def generate_files_from_csv():
 
             if len(row) > 0:
                 prospective_file_name = row[0]
-                new_file = open(f'./{prospective_file_name}.csv', 'w')
+                new_file = open(f'./data/{prospective_file_name}.csv', 'w')
             new_file.close()
 
 
