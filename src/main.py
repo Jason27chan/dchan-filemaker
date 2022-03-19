@@ -1,4 +1,5 @@
+from src.gui import Gui
 
 if __name__ == '__main__':
     print("running main")
-    gui.run_main_loop()
+    Gui.run_main_loop()
