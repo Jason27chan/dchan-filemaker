@@ -1,6 +1,7 @@
 import tkinter
 from csv import reader
 import tkinter as tk
+import os
 
 print("running main")
 def generate_files_from_csv():
@@ -15,9 +16,11 @@ def generate_files_from_csv():
             print(row)
 
             if len(row) > 0:
+                if not os.path.exists('./data'):
+                    os.mkdir('data')
                 prospective_file_name = row[0]
                 new_file = open(f'./data/{prospective_file_name}.csv', 'w')
-            new_file.close()
+                new_file.close()
 
 
 root = tk.Tk()
