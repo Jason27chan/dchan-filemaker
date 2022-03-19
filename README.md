@@ -18,4 +18,8 @@ We would like to generate the following files
 * name3.csv
 
 ## Generating executable
-`pyinstaller ./src/main.py`
+```
+cd src
+pyinstaller --onefile main.py
+```
+
