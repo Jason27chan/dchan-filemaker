@@ -1,4 +1,5 @@
 # dchan-filemaker
+## Problem Statement
 I made this project for my uncle
 
 The problem is that my uncle needs to generate a series of csv files with specific names.
@@ -15,3 +16,6 @@ We would like to generate the following files
 * name1.csv
 * name2.csv
 * name3.csv
+
+## Generating executable
+`pyinstaller ./src/main.py`
