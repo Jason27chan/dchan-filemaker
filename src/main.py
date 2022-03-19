@@ -1,4 +1,4 @@
-from src.gui import Gui
+from gui import Gui
 
 if __name__ == '__main__':
     print("running main")

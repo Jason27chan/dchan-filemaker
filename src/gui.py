@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from src.file_generator import generate_files_from_csv
+from file_generator import generate_files_from_csv
 
 
 class Gui:
