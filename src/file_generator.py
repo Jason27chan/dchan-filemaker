@@ -2,9 +2,9 @@ import os
 from csv import reader
 
 
-def generate_files_from_csv():
+def generate_files_from_csv(filename):
     # open file
-    with open("testdata.csv", "r") as my_file:
+    with open(filename, "r") as my_file:
         # pass the file object to reader()
         file_reader = reader(my_file)
 
